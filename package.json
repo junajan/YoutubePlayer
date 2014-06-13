@@ -1,0 +1,35 @@
+{
+    "name": "YoutubePlaylist",
+    "description": "",
+    "version": "0.0.1",
+    "main": "./app.js",
+    "private": true,
+    "scripts": {
+      "start": "nodemon app.js"
+    },
+    "dependencies": {
+      "express": "latest",
+      "ejs": "latest",
+      "mysql": "latest",
+      "ejs-locals": "~1.0.2",
+      "express-ejs-layouts": "~0.3.1",
+      "async": "latest",
+      "express-form": "0.8.x",
+      "connect-session-file": "latest",
+      "diacritics": "latest",
+      "nodemailer": "latest",
+      "request": "latest",
+      "cheerio": "latest",
+      "underscore": "latest"
+    },
+    "devDependencies": {
+      "nodemon": "*"
+    },
+    "author": {
+      "name": "developer",
+      "email": ""
+    },
+    "bugs": {
+      "web": "null"
+    }
+}
